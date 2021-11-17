@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/codingkapur/login-fintech/static/css/main.7e8c6927.chunk.css",
+    "main.js": "/codingkapur/login-fintech/static/js/main.bb72100c.chunk.js",
+    "main.js.map": "/codingkapur/login-fintech/static/js/main.bb72100c.chunk.js.map",
+    "runtime-main.js": "/codingkapur/login-fintech/static/js/runtime-main.ed255e57.js",
+    "runtime-main.js.map": "/codingkapur/login-fintech/static/js/runtime-main.ed255e57.js.map",
+    "static/js/2.246a4f0d.chunk.js": "/codingkapur/login-fintech/static/js/2.246a4f0d.chunk.js",
+    "static/js/2.246a4f0d.chunk.js.map": "/codingkapur/login-fintech/static/js/2.246a4f0d.chunk.js.map",
+    "index.html": "/codingkapur/login-fintech/index.html",
+    "static/css/main.7e8c6927.chunk.css.map": "/codingkapur/login-fintech/static/css/main.7e8c6927.chunk.css.map",
+    "static/js/2.246a4f0d.chunk.js.LICENSE.txt": "/codingkapur/login-fintech/static/js/2.246a4f0d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/codingkapur/login-fintech/static/media/hero-img-2.d0be4db4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed255e57.js",
+    "static/js/2.246a4f0d.chunk.js",
+    "static/css/main.7e8c6927.chunk.css",
+    "static/js/main.bb72100c.chunk.js"
+  ]
+}
