@@ -1,7 +1,10 @@
+//Style Imports
 import "./Navbar.css";
+import {FaBars} from 'react-icons/fa';
+//Context Import
 import { useGlobalContext } from "../context";
 const Navbar = () => {
-  const { showLoginForm } = useGlobalContext();
+  const { showLoginForm, openSidebar } = useGlobalContext();
   return (
     <nav className="nav__container">
       <p className="nav__logo"><span className="logo-label">Glo</span>Bank</p>
@@ -29,6 +32,7 @@ const Navbar = () => {
           <p className="nav__link signup__btn">Sign Up</p>
         </li>
       </ul>
+      <FaBars className="sidebar__toggle--btn sidebar__open" onClick={openSidebar}/>
     </nav>
   );
 };

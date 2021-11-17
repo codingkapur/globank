@@ -67,3 +67,23 @@
 .nav__link:active {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.302);
 }
+.sidebar__toggle--btn {
+  display: none;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.sidebar__toggle--btn:hover {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width:900px){
+  .nav__links--pages {
+    display: none;
+  }
+  .nav__links {
+    display: none;
+  }
+  .sidebar__toggle--btn {
+    display: block;
+  }
+}
