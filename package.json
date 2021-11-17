@@ -1,5 +1,5 @@
 {
-  "homepage": "http://github.com/codingkapur/login-fintech",
+  "homepage": "http://codingkapur.github.io/login-fintech",
   "name": "login-salt-react",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [

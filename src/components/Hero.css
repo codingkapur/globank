@@ -1,6 +1,6 @@
 .hero__container {
   position: relative;
-  height: 90vh;
+  min-height: 90vh;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;

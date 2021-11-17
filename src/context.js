@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
   const [showSidebar, setShowSidebar] = useState(false);
   //Functions
   const showLoginForm = () => {
-    if(showSidebar){
+    if (showSidebar) {
       setShowSidebar(false);
     }
     setShowLogin(true);
@@ -17,15 +17,14 @@ const AppProvider = ({ children }) => {
     setShowLogin(false);
   };
   const openSidebar = () => {
-    setShowSidebar(true);
-  }
-  const closeSidebar = () => {
-    if(showLogin){
-    setShowLogin(false);
-
+    if (showLogin) {
+      setShowLogin(false);
     }
+    setShowSidebar(true);
+  };
+  const closeSidebar = () => {
     setShowSidebar(false);
-  }
+  };
 
   return (
     <AppContext.Provider
