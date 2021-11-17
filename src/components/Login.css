@@ -1,0 +1,142 @@
+.login__modal--container {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border-radius: 10px;
+  z-index: 5;
+  background-color: #fff;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #555;
+  font-family: "Lato", sans-serif;
+}
+
+.signin__label {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  border-bottom: 1px solid #555;
+}
+.modal__form--container {
+  padding: 0 2rem;
+  border: 1px solid #123;
+}
+.form__control--input {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 2rem 0 0 0;
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  width: 100%;
+  padding: 0 5px;
+  height: 2.2rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+.form__control--label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.modal__close--btn {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  cursor: pointer;
+}
+.modal__close--btn:hover {
+  transform: scale(1.1);
+}
+.form__control--input span::before {
+  content: "";
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(255, 175, 1);
+  transition: 0.5s;
+}
+
+.form__input:focus ~ .form__control--label,
+.form__input:valid ~ .form__control--label {
+  top: -5px;
+  color: rgb(85, 85, 85);
+}
+
+.form__input:focus ~ span::before,
+.form__input:valid ~ span::before {
+  width: 100%;
+}
+
+.forgot-password__label {
+  color: #a6a6a6;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  font-size: 0.7rem;
+}
+.forgot-password__label:hover {
+  color: #c43535;
+  text-decoration: underline;
+}
+.error-message {
+  opacity: 0;
+  color: #c43535;
+  font-size: 0.7rem;
+  margin: 5px 0 10px 5px;
+}
+.btn-form {
+  width: 100%;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #000;
+}
+.btn-form .btn-sign-in {
+  margin-bottom: 1.5rem;
+}
+.btn-form:hover {
+  transition: 0.1s;
+  background-color: rgb(255, 175, 1);
+  color: #fff;
+}
+
+.sign-up-form-text {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #666666;
+}
+
+.sign-up-form-text strong {
+  color: #c43535;
+  text-decoration: none;
+}
+.sign-up-form-text strong:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-sign-in-container {
+  margin: 0 0 30px 0;
+}

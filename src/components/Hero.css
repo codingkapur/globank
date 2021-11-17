@@ -43,10 +43,10 @@
   color: rgb(255, 255, 255);
 }
 .hero__text--sub-2 {
-    padding-left: 8rem;
+  padding-left: 8rem;
 }
 .hero__text--sub-3 {
-    padding-left: 13rem;
+  padding-left: 13rem;
 }
 .hero__btn--container {
   display: grid;
@@ -55,7 +55,7 @@
   padding: 0 1rem 0 20rem;
 }
 .hero__btn {
-    text-align: center;
+  text-align: center;
   padding: 0.5rem;
   margin-right: 0.5rem;
   background-color: rgb(255, 255, 255);
@@ -71,5 +71,5 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.302);
 }
 .hero__btn:active {
-    box-shadow: 0 2px 3px rgba(118, 118, 118, 0.302);
-  }
+  box-shadow: 0 2px 3px rgba(118, 118, 118, 0.302);
+}
