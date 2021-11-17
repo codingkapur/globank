@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -8,12 +8,16 @@
 body {
   height: 100vh;
   width: 100vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  background:url(./assets/hero-img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: rgb(72, 72, 72);
 }
 .app__container {
   height: 100vh;
   width: 100%;
-  max-width: 1000px;
-  border: 1px solid #123;
   margin: 0 auto;
 }
